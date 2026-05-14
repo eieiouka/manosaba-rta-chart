@@ -6,15 +6,10 @@ export const chapter1 = [
     side: "左",
     target: "筆を使って",
 
-    branch: {
-      index: "0/0",
-      text: "筆で描かれてはいない",
-    },
-
     actions: [
       {
         type: "choice",
-        index: "0/0",
+        index: "中",
         text: "魔法",
       },
     ],
@@ -26,11 +21,6 @@ export const chapter1 = [
     statementNo: 4,
     side: "左",
     target: "犯人",
-
-    branch: {
-      index: "0/0",
-      text: "絵は犯人を示した物ではない",
-    },
   },
 
   {
@@ -40,15 +30,10 @@ export const chapter1 = [
     side: "左",
     target: "部屋の状況",
 
-    branch: {
-      index: "0/0",
-      text: "部屋の状況がおかしい",
-    },
-
     actions: [
       {
         type: "choice",
-        index: "0/0",
+        index: "上（2）",
         text: "問題ある",
       },
     ],
@@ -61,15 +46,10 @@ export const chapter1 = [
     side: "左",
     target: "外から投げ込んだ",
 
-    branch: {
-      index: "0/0",
-      text: "道具を使った",
-    },
-
     actions: [
       {
         type: "evidence",
-        index: "0/0",
+        index: "10",
         text: "ボウガンの矢",
       },
     ],
@@ -82,15 +62,10 @@ export const chapter1 = [
     side: "左",
     target: "殺した",
 
-    branch: {
-      index: "0/0",
-      text: "シェリーは殺せない",
-    },
-
     actions: [
       {
         type: "evidence",
-        index: "0/0",
+        index: "1",
         text: "分解されたパーツ",
       },
     ],
@@ -102,11 +77,6 @@ export const chapter1 = [
     statementNo: 7,
     side: "左",
     target: "痕跡を残さずに",
-
-    branch: {
-      index: "0/0",
-      text: "痕跡は残っていた",
-    },
   },
 
   {
@@ -116,33 +86,28 @@ export const chapter1 = [
     side: "左",
     target: "足音も聞こえた",
 
-    branch: {
-      index: "0/0",
-      text: "ノアは足音を立てていない",
-    },
-
     actions: [
       {
         type: "evidence",
-        index: "0/0",
+        index: "8",
         text: "城ヶ崎ノアの死体写真",
       },
 
       {
         type: "evidence",
-        index: "0/0",
+        index: "5",
         text: "カラースプレー",
       },
 
       {
         type: "choice",
         index: "0/0",
-        text: "深夜にノアの部屋に入れた者はいない",
+        text: "下（3）",
       },
 
       {
         type: "person",
-        index: "0/0",
+        index: "中",
         text: "蓮見レイア",
       },
     ],
@@ -154,11 +119,6 @@ export const chapter1 = [
     statementNo: 6,
     side: "左",
     target: "塗料を越え",
-
-    branch: {
-      index: "0/0",
-      text: "塗料を越える必要はない",
-    },
   },
 
   {
@@ -168,22 +128,17 @@ export const chapter1 = [
     side: "左",
     target: "リーチを伸ばせた",
 
-    branch: {
-      index: "0/0",
-      text: "犯人はリーチを伸ばせた",
-    },
-
     actions: [
       {
         type: "evidence",
-        index: "0/0",
+        index: "4",
         text: "ほうき",
       },
 
       {
         type: "choice",
         index: "0/0",
-        text: "犯人が常に持ち歩いていた",
+        text: "下（3）",
       },
     ],
   },
@@ -195,21 +150,16 @@ export const chapter1 = [
     side: "左",
     target: "そんなものが存在した証拠",
 
-    branch: {
-      index: "0/0",
-      text: "長槍が作られた証拠がある",
-    },
-
     actions: [
       {
         type: "evidence",
-        index: "0/0",
+        index: "3",
         text: "血の付いたリボン",
       },
 
       {
         type: "choice",
-        index: "0/0",
+        index: "下（3）",
         text: "くくりつけた",
       },
     ],
@@ -222,16 +172,11 @@ export const chapter1 = [
     side: "左",
     target: "魅了の魔法",
 
-    branch: {
-      index: "0/0",
-      text: "魅了の魔法ではなかった",
-    },
-
     actions: [
       {
         type: "choice",
         index: "0/0",
-        text: "魔法は嘘",
+        text: "上（3）",
       },
     ],
   },
@@ -242,11 +187,6 @@ export const chapter1 = [
     statementNo: 13,
     side: "左",
     target: "目を離せなくなったり",
-
-    branch: {
-      index: "0/0",
-      text: "目が離せなくなる魔法",
-    },
   },
 
   {
@@ -256,21 +196,16 @@ export const chapter1 = [
     side: "左",
     target: "塗料",
 
-    branch: {
-      index: "0/0",
-      text: "犯人は塗料を持ち去っている",
-    },
-
     actions: [
       {
         type: "choice",
-        index: "0/0",
+        index: "下（3）",
         text: "持ち去った事に気付いてなかった",
       },
 
       {
         type: "evidence",
-        index: "0/0",
+        index: "5",
         text: "カラースプレー",
       },
     ],
@@ -283,39 +218,34 @@ export const chapter1 = [
     side: "左",
     target: "証拠",
 
-    branch: {
-      index: "0/0",
-      text: "証拠を提出する",
-    },
-
     actions: [
       {
         type: "evidence",
-        index: "0/0",
+        index: "7",
         text: "配信アーカイブ",
       },
 
       {
         type: "choice",
-        index: "0/0",
+        index: "中",
         text: "今は持っていない",
       },
 
       {
         type: "choice",
         index: "0/0",
-        text: "知っている人物を提示する",
+        text: "下（3）",
       },
 
       {
         type: "person",
-        index: "0/0",
+        index: "6",
         text: "佐伯ミリア",
       },
 
       {
         type: "evidence",
-        index: "0/0",
+        index: "6",
         text: "フルーツの写真",
       },
     ],
