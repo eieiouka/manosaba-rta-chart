@@ -23,9 +23,9 @@ export const chapter1 = [
 
     target: "つまり犯行は不可能だった",
 
-    branch: {
-      index: "2/3",
-      text: "窓は開いていた",
+    choice: {
+      index: "1/2",
+      text: "部屋には誰もいなかった",
     },
   },
 
@@ -47,5 +47,15 @@ export const chapter1 = [
     side: "右",
 
     target: "あの部屋の状況もおかしい",
+
+    branch: {
+      index: "2/3",
+      text: "窓は開いていた",
+    },
+
+    choice: {
+      index: "2/2",
+      text: "被害者は先に死んでいた",
+    },
   },
 ]

@@ -28,6 +28,18 @@ export default function TrialBlock({ step, stepNo }) {
           ：「{step.branch.text}」
         </p>
       )}
+
+      {step.choice && (
+        <p>
+          <span className="sub-label">選択肢：</span>
+
+          <strong className="trial-choice-index">
+            {step.choice.index}
+          </strong>
+
+          ：「{step.choice.text}」
+        </p>
+      )}
     </article>
   )
 }
