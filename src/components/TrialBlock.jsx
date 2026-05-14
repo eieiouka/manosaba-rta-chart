@@ -5,7 +5,6 @@ export default function TrialBlock({ step, stepNo }) {
 
       <h3>
         {step.speaker}：{step.statementNo}番目
-        {step.side && `（${step.side}）`}
       </h3>
 
       <p
