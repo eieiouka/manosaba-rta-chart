@@ -29,16 +29,44 @@ export default function TrialBlock({ step, stepNo }) {
         </p>
       )}
 
-      {step.choice && (
-        <p>
-          <span className="sub-label">選択肢：</span>
+      {step.actions && (
+        <div className="trial-actions">
+          {step.actions.map((action, index) => {
+            if (action.type === "choice") {
+              return (
+                <p key={index}>
+                  <span className="sub-label">選択肢：</span>
 
-          <strong className="trial-choice-index">
-            {step.choice.index}
-          </strong>
+                  <strong className="trial-choice-index">
+                    {action.index}
+                  </strong>
 
-          ：「{step.choice.text}」
-        </p>
+                  ：「{action.text}」
+                </p>
+              )
+            }
+
+            if (action.type === "evidence") {
+              return (
+                <p key={index} className="trial-evidence-item">
+                  <span className="sub-label">証拠品：</span>
+
+                  <strong className="trial-evidence-order">
+                    {action.order}番目
+                  </strong>
+
+                  ：
+
+                  <span className="trial-evidence-text">
+                    {action.text}
+                  </span>
+                </p>
+              )
+            }
+
+            return null
+          })}
+        </div>
       )}
     </article>
   )

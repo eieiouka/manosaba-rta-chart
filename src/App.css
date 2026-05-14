@@ -134,31 +134,6 @@ body {
   background: #21182b;
 }
 
-@media (min-width: 768px) {
-  .site-header h1 {
-    font-size: 24px;
-  }
-
-  .chapter {
-    padding-top: 32px;
-  }
-}
-
-.trial-target {
-  color: #ffd54a;
-  font-weight: 700;
-}
-
-.trial-target {
-  color: #ffd54a;
-  font-weight: 700;
-}
-
-.trial-branch-index {
-  color: #4ade80;
-  font-weight: 700;
-}
-
 .trial-line {
   display: flex;
   margin-top: 14px;
@@ -186,4 +161,31 @@ body {
 .trial-choice-index {
   color: #ff7ad9;
   font-weight: 700;
+}
+
+.trial-evidence-list {
+  margin-top: 14px;
+}
+
+.trial-evidence-item {
+  margin: 6px 0;
+}
+
+.trial-evidence-order {
+  font-weight: 700;
+}
+
+.trial-evidence-text {
+  color: #67d4ff;
+  font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  .site-header h1 {
+    font-size: 24px;
+  }
+
+  .chapter {
+    padding-top: 32px;
+  }
 }

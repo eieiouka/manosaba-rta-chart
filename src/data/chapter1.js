@@ -12,6 +12,20 @@ export const chapter1 = [
       index: "1/3",
       text: "筆で描かれてはいない",
     },
+
+    actions: [
+      {
+        type: "evidence",
+        order: 1,
+        text: "被害者のメモ",
+      },
+
+      {
+        type: "evidence",
+        order: 2,
+        text: "割れた花瓶",
+      },
+    ],
   },
 
   {
@@ -23,10 +37,25 @@ export const chapter1 = [
 
     target: "つまり犯行は不可能だった",
 
-    choice: {
-      index: "1/2",
-      text: "部屋には誰もいなかった",
-    },
+    actions: [
+      {
+        type: "choice",
+        index: "1/2",
+        text: "部屋には誰もいなかった",
+      },
+
+      {
+        type: "evidence",
+        order: 2,
+        text: "監視カメラ映像",
+      },
+
+      {
+        type: "evidence",
+        order: 1,
+        text: "血痕写真",
+      },
+    ],
   },
 
   {
@@ -53,9 +82,42 @@ export const chapter1 = [
       text: "窓は開いていた",
     },
 
-    choice: {
-      index: "2/2",
-      text: "被害者は先に死んでいた",
-    },
+    actions: [
+      {
+        type: "evidence",
+        order: 1,
+        text: "解剖記録",
+      },
+
+      {
+        type: "choice",
+        index: "2/2",
+        text: "被害者は先に死んでいた",
+      },
+
+      {
+        type: "evidence",
+        order: 2,
+        text: "壊れた時計",
+      },
+
+      {
+        type: "choice",
+        index: "1/2",
+        text: "凶器は別に存在した",
+      },
+
+      {
+        type: "evidence",
+        order: 2,
+        text: "証言メモ",
+      },
+
+      {
+        type: "evidence",
+        order: 1,
+        text: "被害者の日記",
+      },
+    ],
   },
 ]
