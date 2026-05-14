@@ -2,35 +2,28 @@ export default function TrialBlock({ step, stepNo }) {
   return (
     <article className="step-card trial-card">
       <div className="step-label">TRIAL / {stepNo}</div>
-      <h3>{step.title}</h3>
 
-      {step.image && <img src={step.image} alt={step.title} />}
+      <h3>
+        {step.speaker}：{step.statementNo}番目
+      </h3>
 
-      {step.before && (
-        <p>
-          <span className="sub-label">手前のセリフ：</span>
-          {step.before}
-        </p>
-      )}
+      <p>
+        <span className="sub-label">指摘：</span>
 
-      {step.target && (
-        <p>
-          <span className="sub-label">押すセリフ：</span>
-          <strong>{step.target}</strong>
-        </p>
-      )}
-
-      {step.answerNo && (
-        <p>
-          <span className="sub-label">返答：</span>
-          <strong>{step.answerNo}番</strong>「{step.answer}」
-        </p>
-      )}
+        <strong className="trial-target">
+          「{step.target}」
+        </strong>
+      </p>
 
       {step.branch && (
         <p>
           <span className="sub-label">分岐：</span>
-          {step.branch}
+
+          <strong className="trial-branch-index">
+            {step.branch.index}
+          </strong>
+
+          ：「{step.branch.text}」
         </p>
       )}
     </article>
