@@ -158,3 +158,27 @@ body {
   color: #4ade80;
   font-weight: 700;
 }
+
+.trial-line {
+  display: flex;
+  margin-top: 14px;
+}
+
+.trial-line.left {
+  justify-content: flex-start;
+}
+
+.trial-line.right {
+  justify-content: flex-end;
+}
+
+.trial-target {
+  color: #ffd54a;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.trial-branch-index {
+  color: #4ade80;
+  font-weight: 700;
+}

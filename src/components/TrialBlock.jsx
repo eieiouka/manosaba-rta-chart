@@ -5,11 +5,14 @@ export default function TrialBlock({ step, stepNo }) {
 
       <h3>
         {step.speaker}：{step.statementNo}番目
+        {step.side && `（${step.side}）`}
       </h3>
 
-      <p>
-        <span className="sub-label">指摘：</span>
-
+      <p
+        className={`trial-line ${
+          step.side === "右" ? "right" : "left"
+        }`}
+      >
         <strong className="trial-target">
           「{step.target}」
         </strong>
