@@ -16,13 +16,19 @@ export const chapter1 = [
     actions: [
       {
         type: "evidence",
-        order: 1,
+        index: "1/13",
         text: "被害者のメモ",
       },
 
       {
+        type: "person",
+        index: "3/13",
+        text: "遠野ハンナ",
+      },
+
+      {
         type: "evidence",
-        order: 2,
+        index: "5/13",
         text: "割れた花瓶",
       },
     ],
@@ -45,14 +51,20 @@ export const chapter1 = [
       },
 
       {
+        type: "person",
+        index: "6/13",
+        text: "橘シェリー",
+      },
+
+      {
         type: "evidence",
-        order: 2,
+        index: "7/13",
         text: "監視カメラ映像",
       },
 
       {
         type: "evidence",
-        order: 1,
+        index: "2/13",
         text: "血痕写真",
       },
     ],
@@ -85,7 +97,7 @@ export const chapter1 = [
     actions: [
       {
         type: "evidence",
-        order: 1,
+        index: "1/13",
         text: "解剖記録",
       },
 
@@ -96,8 +108,14 @@ export const chapter1 = [
       },
 
       {
+        type: "person",
+        index: "9/13",
+        text: "黒部ナノカ",
+      },
+
+      {
         type: "evidence",
-        order: 2,
+        index: "8/13",
         text: "壊れた時計",
       },
 
@@ -109,13 +127,19 @@ export const chapter1 = [
 
       {
         type: "evidence",
-        order: 2,
+        index: "10/13",
         text: "証言メモ",
       },
 
       {
+        type: "person",
+        index: "12/13",
+        text: "桜羽エマ",
+      },
+
+      {
         type: "evidence",
-        order: 1,
+        index: "3/13",
         text: "被害者の日記",
       },
     ],

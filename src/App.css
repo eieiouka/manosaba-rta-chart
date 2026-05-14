@@ -189,3 +189,12 @@ body {
     padding-top: 32px;
   }
 }
+
+.trial-person-order {
+  font-weight: 700;
+}
+
+.trial-person-text {
+  color: #ffb347;
+  font-weight: 700;
+}

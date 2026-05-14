@@ -52,12 +52,30 @@ export default function TrialBlock({ step, stepNo }) {
                   <span className="sub-label">証拠品：</span>
 
                   <strong className="trial-evidence-order">
-                    {action.order}番目
+                    {action.index}
                   </strong>
 
                   ：
 
                   <span className="trial-evidence-text">
+                    {action.text}
+                  </span>
+                </p>
+              )
+            }
+
+            if (action.type === "person") {
+              return (
+                <p key={index} className="trial-person-item">
+                  <span className="sub-label">人物指定：</span>
+
+                  <strong className="trial-person-order">
+                    {action.index}
+                  </strong>
+
+                  ：
+
+                  <span className="trial-person-text">
                     {action.text}
                   </span>
                 </p>
