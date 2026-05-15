@@ -215,7 +215,7 @@ export const chapter1 = [
     type: "trial",
     speaker: "レイア",
     statementNo: 18,
-    side: "",
+    side: "右",
     target: "証拠",
 
     actions: [
