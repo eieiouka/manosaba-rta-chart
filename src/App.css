@@ -56,10 +56,14 @@ body {
 }
 
 .chapter-title {
-  font-size: 26px;
-  margin: 0 0 20px;
+  font-size: 38px;
+  font-weight: 800;
+  margin: 0 0 24px;
+
   border-left: 6px solid #fff;
-  padding-left: 12px;
+  padding-left: 14px;
+
+  color: #67d4ff;
 }
 
 .step-list {
@@ -208,4 +212,8 @@ body {
 .trial-line.left {
   justify-content: flex-start;
   text-align: left;
+}
+
+.site-header h1 {
+  color: #ffb7d5;
 }
