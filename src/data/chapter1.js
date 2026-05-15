@@ -101,8 +101,8 @@ export const chapter1 = [
 
       {
         type: "choice",
-        index: "0/0",
-        text: "下（3）",
+        index: "下（3）",
+        text: "深夜にノアの部屋に入れた者はいない",
       },
 
       {
@@ -137,8 +137,8 @@ export const chapter1 = [
 
       {
         type: "choice",
-        index: "0/0",
-        text: "下（3）",
+        index: "下（3）",
+        text: "犯人が常に持ち歩いていた",
       },
     ],
   },
@@ -175,8 +175,8 @@ export const chapter1 = [
     actions: [
       {
         type: "choice",
-        index: "0/0",
-        text: "上（3）",
+        index: "上（3）",
+        text: "魅了の魔法ではなかった",
       },
     ],
   },
@@ -233,8 +233,8 @@ export const chapter1 = [
 
       {
         type: "choice",
-        index: "0/0",
-        text: "下（3）",
+        index: "下（3）",
+        text: "知っている人物を提示する",
       },
 
       {
