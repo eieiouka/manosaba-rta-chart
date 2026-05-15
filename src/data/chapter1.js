@@ -3,7 +3,7 @@ export const chapter1 = [
     type: "trial",
     speaker: "シェリー",
     statementNo: 6,
-    side: "左",
+    side: "右",
     target: "筆を使って",
 
     actions: [
@@ -19,7 +19,7 @@ export const chapter1 = [
     type: "trial",
     speaker: "シェリー",
     statementNo: 4,
-    side: "左",
+    side: "右",
     target: "犯人",
   },
 
@@ -43,7 +43,7 @@ export const chapter1 = [
     type: "trial",
     speaker: "アリサ",
     statementNo: 7,
-    side: "左",
+    side: "右",
     target: "外から投げ込んだ",
 
     actions: [
@@ -59,7 +59,7 @@ export const chapter1 = [
     type: "trial",
     speaker: "ココ",
     statementNo: 6,
-    side: "左",
+    side: "右",
     target: "殺した",
 
     actions: [
@@ -75,7 +75,7 @@ export const chapter1 = [
     type: "trial",
     speaker: "レイア",
     statementNo: 7,
-    side: "左",
+    side: "右",
     target: "痕跡を残さずに",
   },
 
@@ -83,7 +83,7 @@ export const chapter1 = [
     type: "trial",
     speaker: "ココ",
     statementNo: 3,
-    side: "左",
+    side: "右",
     target: "足音も聞こえた",
 
     actions: [
@@ -125,7 +125,7 @@ export const chapter1 = [
     type: "trial",
     speaker: "マーゴ",
     statementNo: 5,
-    side: "左",
+    side: "右",
     target: "リーチを伸ばせた",
 
     actions: [
@@ -147,7 +147,7 @@ export const chapter1 = [
     type: "trial",
     speaker: "レイア",
     statementNo: 8,
-    side: "左",
+    side: "右",
     target: "そんなものが存在した証拠",
 
     actions: [
@@ -169,7 +169,7 @@ export const chapter1 = [
     type: "trial",
     speaker: "レイア",
     statementNo: 6,
-    side: "左",
+    side: "右",
     target: "魅了の魔法",
 
     actions: [
@@ -193,7 +193,7 @@ export const chapter1 = [
     type: "trial",
     speaker: "ミリア",
     statementNo: 14,
-    side: "左",
+    side: "右",
     target: "塗料",
 
     actions: [
@@ -215,7 +215,7 @@ export const chapter1 = [
     type: "trial",
     speaker: "レイア",
     statementNo: 18,
-    side: "左",
+    side: "",
     target: "証拠",
 
     actions: [
