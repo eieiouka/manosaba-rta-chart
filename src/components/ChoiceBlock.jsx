@@ -1,12 +1,21 @@
 export default function ChoiceBlock({ step, stepNo }) {
   return (
     <article className="step-card choice-card">
-      <div className="step-label">CHOICE / {stepNo}</div>
-      <h3>{step.title}</h3>
+      <div className="step-label">
+        CHOICE / {stepNo}
+      </div>
 
-      {step.image && <img src={step.image} alt={step.title} />}
+      <p>
+        <span className="sub-label">
+          選択肢：
+        </span>
 
-      <p className="important">{step.text}</p>
+        <strong className="trial-choice-index">
+          {step.index}
+        </strong>
+
+        ：「{step.text}」
+      </p>
     </article>
   )
 }
