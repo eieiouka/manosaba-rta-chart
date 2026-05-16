@@ -3,6 +3,7 @@ import { chapter2 } from "./chapter2"
 import { chapter3 } from "./chapter3"
 import { chapter4 } from "./chapter4"
 import { chapter5 } from "./chapter5"
+import { chapter6 } from "./chapter6"
 
 export const chapters = [
   {
@@ -29,5 +30,10 @@ export const chapters = [
   id: "chapter5",
   title: "第5章",
   steps: chapter5,
+  },
+  {
+  id: "chapter6",
+  title: "第6章",
+  steps: chapter6,
   },
 ]

@@ -80,6 +80,12 @@ export const chapter5 = [
 
     actions: [
       {
+        type: "person",
+        index: "1",
+        text: "桜羽エマ",
+      },
+
+      {
         type: "choice",
         index: "中",
         text: "ビンが割れた音",
